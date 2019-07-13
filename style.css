@@ -1,0 +1,74 @@
+body {
+ background-image: url(./images/coding-language.jpg);
+ background-repeat: repeat;
+ background-size: 120%;
+}
+
+
+.intro {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(50, 40, 34);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+
+    border-bottom:2px dotted black;
+}
+.intro h1 p { 
+    width: 65%;
+    margin:auto;
+}
+.decoration-bar {
+
+    height: 80px;
+    background-color: rgb(50, 40, 34);
+    width:100%;
+    position:relative;
+    top: -325px;
+
+}
+
+/* Switching to Slides
+
+
+.middle {
+    background-color: rgb(122, 12, 12);
+    height: 375px;
+    position: relative;
+    top: -90px;
+    border-radius: 50px;
+    border: 2px dotted black;
+    z-index: 10;
+}
+
+.middle-one {
+    text-align: center;
+    color:silver;
+}
+
+.middle-two {
+    text-align: center;
+    color:silver;
+}
+*/ 
+.lower-jumbo {
+    position: sticky;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(50, 40, 34);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom:2px dotted black;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+
+
+}
