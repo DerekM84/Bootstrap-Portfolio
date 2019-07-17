@@ -1,29 +1,35 @@
  body {
- background-image: url(./images/codingpic3.jpeg);
- background-repeat: repeat;
- background-size: 120%;
+    background-image: url(https://cdn-images-1.medium.com/max/1200/1*7VCbs_tTA5tGgMdssqiglw.jpeg);
+    background-repeat: repeat;
+    background-size:130%;
 
 
 } 
 
+
+
 .navbar {
     background-color: transparent;
-    position: fixed;
+
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15%;
     border-right: 1px solid rgb(170, 210, 115);
     border-bottom: 1px solid rgb(170, 210, 115);
     z-index: 10;
+    
 }
 
 .nav-buttons {
     height: 35px;
+    position:relative;
     width: 120px;
     background-color: transparent;
     color: rgb(220,190,150);
     margin: auto;
-    margin-left: 10px;
+    margin-left: 30px;
     border: none;
+display:inline-block;
+top:20px;
 
 }
 
@@ -39,21 +45,20 @@
     color: white;
     background-color: transparent;
     background-image: linear-gradient(transparent, rgb(50, 40, 34) ,transparent );
-    text-align: center;
+text-align: center;
     border-bottom-left-radius: 75px;
     border-bottom-right-radius: 75px;
-    padding: auto;
-
+   
     border-top:1px solid rgb(170, 210, 115);
 }
 .intro h1 { 
     position:relative;
     width: 65%;
     margin:auto;
-    top:-35px;
+    top:-30px;
     color: white;
     text-decoration: none;
-    Font-size: 50px;
+    Font-size: 35px;
     font-family:
 
 }
@@ -67,12 +72,14 @@ ul {
     position:relative;
     top: -60px;
     left: 60px;
+    float:right;
+
 }
 
 .social-media a {
-margin:10px;
-position:relative;
-right: 15px;
+margin:15px;
+
+
 }
 .media-icon {
     border-radius: 50%;
@@ -82,17 +89,19 @@ right: 15px;
 
 .center-panel {
 width: 100%;
-Height: 500px;
+Height: 400px;
 color: white;
-background-color;
-opacity: 0.9;
+
+opacity: 1.0;
 border-radius: 50px;
 }
 
 .upper-panel {
 height:100%;
 width:100%;
-background: radial-gradient(ellipse at 50% 45%, #e66465, transparent 55%);
+background: radial-gradient(ellipse at 50% 45%, #e66465, transparent 65%);
+opacity:1.0;
+
 
 }
 .lower-panel {
@@ -100,10 +109,10 @@ background: radial-gradient(ellipse at 50% 45%, #e66465, transparent 55%);
     width:100%;
     color: #e66465;
     background-color: black;
-    opacity:0.8;
+    opacity:0.9;
     border-radius: 10%;
     border: 1px solid rgb(170, 210, 115);
-
+    margin-top:30px;
 
 }
 .lower-panel h1 {
@@ -227,10 +236,14 @@ flex-wrap: wrap;
 
 }
 
-@media screen and (max-width: 768px) {
-
-
-
+@media screen and (max-width: 780px) {
+.picture-wrap {
+    width:100%;
+    height:80%;
+}
+.social-media{
+    margin-left: 20px;
+}
 
 
 }
