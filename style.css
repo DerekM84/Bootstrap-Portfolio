@@ -9,13 +9,29 @@
 .navbar {
     background-color: transparent;
     position: fixed;
-    border-bottom-right-radius: 30%;
+    border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15%;
     border-right: 1px solid rgb(170, 210, 115);
     border-bottom: 1px solid rgb(170, 210, 115);
     z-index: 10;
 }
 
+.nav-buttons {
+    height: 35px;
+    width: 120px;
+    background-color: transparent;
+    color: rgb(220,190,150);
+    margin: auto;
+    margin-left: 10px;
+    border: none;
+
+}
+
+.nav-buttons:hover{
+    color: rgb(4, 201, 201);
+    border: 1px dotted rgb(170, 210, 115);
+    border-radius: 15%;
+}
 
 .intro {
     width: 100%;
@@ -27,7 +43,7 @@
     border-bottom-left-radius: 75px;
     border-bottom-right-radius: 75px;
     padding: auto;
-    border-bottom:2px dotted rgb(170, 210, 115);
+
     border-top:1px solid rgb(170, 210, 115);
 }
 .intro h1 { 
@@ -64,7 +80,72 @@ right: 15px;
     width:50px;
 }
 
+.center-panel {
+width: 100%;
+Height: 500px;
+color: white;
+background-color;
+opacity: 0.9;
+border-radius: 50px;
+}
 
+.upper-panel {
+height:100%;
+width:100%;
+background: radial-gradient(ellipse at 50% 45%, #e66465, transparent 55%);
+
+}
+.lower-panel {
+    height:100%;
+    width:100%;
+    color: #e66465;
+    background-color: black;
+    opacity:0.8;
+    border-radius: 10%;
+    border: 1px solid rgb(170, 210, 115);
+
+
+}
+.lower-panel h1 {
+    font-family:cursive;
+    font-size: 45px;
+    text-align: Center;
+
+
+}
+
+.panel-row {
+height:100%;
+width:100%;
+}
+.picture-wrap {
+position:relative;
+width:45%;
+height:45%;
+border-radius: 50%;
+background-color:#e66465;
+min-width: 200px;
+min-height:200px;
+margin:auto;
+margin-top:20%;
+border:2px solid black;
+
+}
+.picture-wrap img {
+    position:relative;
+    margin-top: 2.0%;
+    margin-left:2.0%;
+width:96%;
+height:96%;
+border-radius: 50%;
+border:2px solid black;
+
+
+}
+
+.contact-panel {
+    
+}
 .project-row {
 display: flex;
 flex-wrap: wrap;
@@ -73,16 +154,14 @@ flex-wrap: wrap;
 .project-container {
 
     background-color:white;
-    background: radial-gradient(ellipse at top, #e66465, transparent),
-            radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    background: radial-gradient(ellipse at top, #e66465, transparent 70%) ,
+                radial-gradient(ellipse at bottom, transparent, transparent 50%);
     height: 375px;
     margin:20px auto;
+    min-width: 200px;
     width:300px;
     border-radius: 45px;
     border: 3px solid black;
-
-}
-.project-a: {
 
 }
 
@@ -132,11 +211,11 @@ flex-wrap: wrap;
     bottom : -50px;
     background-color: transparent;
     background-image: linear-gradient(transparent, rgb(50, 40, 34) ,transparent );
-    color: white;
+    color: silver;
     text-align: center;
     border-top-left-radius: 75px;
     border-top-right-radius: 75px;
-    border-top:4px solid black;
+
     opacity: 0.7;
 
 }
